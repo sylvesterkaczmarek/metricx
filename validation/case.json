@@ -1,0 +1,22 @@
+{
+  "repo": "google-research/metricx",
+  "base_branch": "main",
+  "base": "fc4978eb064670f7cc33e93ea4f52d38396b8ae6",
+  "sources": [
+    "metricx23/models.py",
+    "metricx24/models.py"
+  ],
+  "test": "tests/encoder_inputs_test.py",
+  "counts": [
+    34,
+    0,
+    0,
+    0
+  ],
+  "baseline_failure_count": 30,
+  "issue_url": "https://github.com/google-research/metricx/issues/24",
+  "issue": 24,
+  "branch": "fix/alternative-encoder-inputs-20260928",
+  "title": "Derive regression batch size from the encoded hidden states",
+  "head": "07838c1e89e64b7fa474ad05650bb249c19860d4"
+}
